@@ -1,1 +1,0 @@
-ä`ÉU<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":4:{s:12:"last_checked";i:1434673110;s:7:"checked";a:5:{s:17:"Avada-Child-Theme";s:5:"1.0.0";s:5:"Avada";s:5:"3.8.4";s:13:"twentyfifteen";s:3:"1.2";s:14:"twentyfourteen";s:3:"1.4";s:14:"twentythirteen";s:3:"1.5";}s:8:"response";a:0:{}s:12:"translations";a:0:{}}}

@@ -1,1 +1,0 @@
-ØfƒU<?php exit; ?>a:1:{s:7:"content";a:5:{s:17:"Avada-Child-Theme";s:7:"/themes";s:5:"Avada";s:7:"/themes";s:13:"twentyfifteen";s:7:"/themes";s:14:"twentyfourteen";s:7:"/themes";s:14:"twentythirteen";s:7:"/themes";}}
