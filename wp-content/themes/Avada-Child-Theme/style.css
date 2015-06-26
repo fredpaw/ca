@@ -7,3 +7,218 @@ Template: Avada
 Version: 1.0.0
 Text Domain:  Avada
 */
+
+/*
+Customize CSS
+Author: Fred Zhou
+Version: 1.0
+*/
+
+/*************************/
+/** 	General CSS		**/
+body{
+	font-family:'Microsoft YaHei';
+}
+
+a:hover {
+	color:#eb0000 !important;
+}
+
+.text-center {
+	text-align:center;
+}
+
+.box-outer-glow {
+	-webkit-box-shadow: 0px 0px 20px -3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.75);
+}
+
+.page-block-title-40 {
+	display:block;
+	width:100%;
+	text-align:center;
+	line-height:40px;
+	font-size:16px;
+}
+
+.page-block-title-50 {
+	display:block;
+	width:100%;
+	text-align:center;
+	line-height:50px;
+	font-size:16px;
+}
+
+/*************************/
+/**		Header Style	**/
+#header-contact-number {
+	display:inline;
+	margin-right:50px;
+	background-color:#fff;
+	color:#000;
+	padding:5px 10px;
+	padding-left:30px;
+	background:url("assets/images/lianxidianhua16-16.svg") left center no-repeat;
+}
+
+#header-online-contact {
+	display:inline;
+	margin-right:0px;
+	background-color:#eb0000;
+	color:#fff;
+	padding:5px 20px;
+	border:1px solid #eb0000;
+}
+
+.ls-container .ls-bg {
+	width:100% !important;
+}
+
+.home-slider-search .search-field input {
+	padding-top:0px !important;
+	padding-bottom:0px !important;
+}
+
+.home-slider-search .search-button input{
+	background-color:#eb0000 !important;
+	border:solid 1px #eb0000 !important;
+}
+
+/*****************************/
+/** 	Navigation Style	**/
+.fusion-header {
+	border-bottom:none !important;
+}
+
+#menu-main-menu > li:last-child{
+	float:right;
+	
+}
+
+#menu-main-menu > li:last-child a {
+	color:#fff;
+	background-color:#bfbfbf;
+	height:30px;
+	padding:0px 10px;
+	line-height:30px;
+	margin-top:5px;
+	border:none;
+}
+
+#menu-main-menu > li:last-child a:hover {
+	background-color:#eb0000;
+	color:#fff !important;
+}
+
+#menu-main-menu > li:last-child a:hover {
+	border:none;
+}
+
+.fusion-main-menu > ul > li > a {
+	border-top:none !important;
+	border-bottom:2px solid transparent;
+}
+
+.fusion-main-menu .fusion-dropdown-menu .sub-menu {
+	border-top:1px solid #dcdadb !important;
+}
+
+.fusion-megamenu-wrapper .fusion-megamenu-holder {
+	border-top:1px solid #dcdadb !important;
+}
+
+.fusion-megamenu-wrapper .fusion-megamenu-submenu {
+	border-right-width:0px;
+	border-bottom:solid 1px #dcdadb;
+	padding:10px 0px;
+}
+
+.fusion-megamenu-wrapper .fusion-megamenu-submenu .fusion-megamenu-title {
+	padding-bottom:0px;
+	font-weight:bold;
+}
+
+.fusion-megamenu-wrapper .fusion-megamenu-submenu .fusion-megamenu-title .sub-menu {
+	border-top:none;
+}
+
+/*************************/
+/**		Sidebar Nav		**/
+#sidebar .search-table .search-button input {
+	background-color:#eb0000 !important;
+}
+
+#menu-middle-school-menu a {
+	display:block;
+	width:100%;
+}
+
+#menu-middle-school-menu li {
+	border-bottom:0px;
+}
+
+/*************************/
+/**		Footer Style	**/
+
+/*--Footer Widgets Style--*/
+.fusion-footer .fusion-footer-widget-area .fusion-column {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+.footer-contact {
+	display:inline-block;
+}
+
+.footer-contact p a {
+	font-weight:bold;
+	font-size:16px;
+	color:#000;
+}
+
+.footer-contact p a:hover {
+	color:#eb0000;
+}
+
+/*--Copyright Style--*/ 
+#eemc-copyright {
+	text-align:center;
+	color:#000;
+}
+
+#eemc-canada {
+	text-align:center;
+	color:#e60012;
+	width:100%;
+	background:url("assets/images/footer-department-background.svg") left center repeat-x;
+}
+
+#eemc-canada span {
+	background-color:#e60012;
+	color:#fff;
+	padding:10px 20px;
+	font-size:14px;
+}
+
+/*****************************/
+/**		Home Page Style 	**/
+.home-post {
+	margin-bottom:0px;
+}
+.home-post .fusion-column {
+	background-color:#f7f7f7;
+	padding:20px 40px;
+}
+
+.home-post .fusion-column .fusion-flexslider .slider img{
+	height:180px;
+}
+
+.home-post .fusion-column .recent-posts-content h4 {
+	font-weight:bold;
+	font-size:16px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
