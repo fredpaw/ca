@@ -40,6 +40,7 @@ a:hover {
 	text-align:center;
 	line-height:40px;
 	font-size:16px;
+	background:url("assets/images/cross.svg") 90% center no-repeat;
 }
 
 .page-block-title-50 {
@@ -48,6 +49,18 @@ a:hover {
 	text-align:center;
 	line-height:50px;
 	font-size:16px;
+}
+
+.no-left-margin {
+	margin-left:0px !important;
+}
+
+#toTop:hover{
+	background-color:#eb0000 !important;
+}
+
+.arrow:after{
+	content:'' !important;
 }
 
 /*************************/
@@ -158,6 +171,136 @@ a:hover {
 	border-bottom:0px;
 }
 
+.side-nav {
+	border-right:0px !important;
+}
+
+.side-nav .page_item_has_children  > a {
+	font-weight:bold;
+}
+
+.side-nav  .page_item_has_children  > a  .arrow {
+	float:left;
+	margin-left:-20px;
+}
+
+.side-nav .page_item_has_children  > a  .arrow:after{
+	content:'∎' !important;
+	color:#eb0000;
+	font-size:6px;
+}
+
+.side-nav  > .page_item_has_children  > a  .arrow {
+	float:right;
+	margin-right:30px;
+}
+
+.side-nav > .page_item_has_children  > a  .arrow:after{
+	content:'+' !important;
+	color:#eb0000;
+	font-size:16px;
+}
+
+.side-nav .current_page_ancestor > a {
+	color:#eb0000 !important;
+}
+
+.side-nav .current_page_item > a {
+	color:#eb0000 !important;
+	border-right-color:#eb0000 !important;
+}
+
+.side-nav li a{
+	padding-left:35px;
+}
+
+.side-nav > li > a {
+	background-color:#f5f5f5 !important;
+	background-image:url("assets/images/fengye16-16.svg") !important;
+	background-position:10px center !important;
+	background-repeat:no-repeat !important;
+	margin-bottom:5px;
+}
+
+.side-nav > li > a:hover {
+	background:url("assets/images/fengye16-16.svg") 10px center no-repeat;
+}
+
+.side-nav > .page_item_has_children  {
+	
+}
+
+/*********************************/
+/**		Breadcrumbs Style		**/
+.fusion-page-title-bar {
+	padding:0px !important;
+	border-bottom:solid 1px #f5f5f5 !important;
+	margin-bottom:20px;
+}
+
+.fusion-page-title-wrapper .fusion-page-title-captions {
+	display:none;
+}
+
+.fusion-page-title-wrapper .fusion-page-title-secondary .fusion-breadcrumbs {
+	text-align:left;
+	font-size:14px;
+}
+
+/*************************/
+/**		Page Style		**/
+.page-search {
+	padding-bottom:20px;
+}
+
+.page-search .search-button input {
+	background-color:#eb0000 !important;
+	width:80px !important;
+}
+
+.page-intro-block {
+	border:solid 1px #f5f5f5 !important;
+	padding-top: 0px !important;
+}
+
+.page-intro-block img {
+	width:100%;
+}
+
+.page-intro-title {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 40px;
+	margin-bottom: 0px !important;
+	margin-left: 10px !important;
+}
+
+.page-content-seperator {
+	height:8px;
+	width:100%;
+	background:url("assets/images/line.svg") repeat-x;
+	margin-bottom:15px;
+}
+
+.read-more-button {
+	padding:5px;
+	color:white;
+	background-color:#eb0000;
+	margin-left:10px;
+}
+
+.read-more-button:hover {
+	color:white !important;
+	background-color:#aaaaaa;
+}
+
+.page-block-title {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 30px;
+	margin-bottom: 0px !important;
+}
+
 /*************************/
 /**		Footer Style	**/
 
@@ -221,4 +364,15 @@ a:hover {
 	font-size:16px;
 	padding-top:20px;
 	padding-bottom:20px;
+}
+
+/*********************************/
+/**		Search Page Style		**/
+
+.search-page-search-form {
+	display:none;
+}
+
+.fusion-meta-info .fusion-alignright{
+	display:none;
 }

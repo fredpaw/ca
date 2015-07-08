@@ -11,6 +11,13 @@ function avada_lang_setup() {
 }
 add_action( 'after_setup_theme', 'avada_lang_setup' );
 
+/**	Add Script to the Header **/
+function search_page_sidebar_script() {
+	wp_enqueue_script('Search-Sidebar-Script',get_template_directory_uri().'/assets/js/custom.js',array('jquery'),'1.0');
+}
+
+add_action('wp_enqueue_scripts', 'search_page_sidebar_script');
+
 /** Register customized widgets **/
 class FooterServiceLink1 extends WP_Widget {
 	function FooterServiceLink1() {
@@ -92,12 +99,23 @@ class FooterMicroMsg extends WP_Widget {
 	}
 }
 
+class SidebarNavWidget extends WP_Widget {
+	function SidebarNavWidget() {
+		parent::__construct(false, 'Sidebar Nav Widget');
+	}
+	
+	function widget($args, $Instance) {
+		echo avada_display_sidenav( $page_id );
+	}
+}
+
 function myplugin_register_widgets() {
 	register_widget('FooterServiceLink1');
 	register_widget('FooterServiceLink2');
 	register_widget('FooterServiceLink3');
 	register_widget('FooterServiceLink4');
 	register_widget('FooterMicroMsg');
+	register_widget('SidebarNavWidget');
 }
 
 add_action('widgets_init', 'myplugin_register_widgets');
